@@ -133,8 +133,8 @@ class Main extends egret.DisplayObjectContainer {
 
         let icon = this.createBitmapByName("egret_icon_png");
         this.addChild(icon);
-        icon.x = 26;
-        icon.y = 33;
+        icon.x = 100;
+        icon.y = 100;
 
         let line = new egret.Shape();
         line.graphics.lineStyle(2, 0xffffff);

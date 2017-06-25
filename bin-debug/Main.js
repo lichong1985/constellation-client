@@ -123,8 +123,8 @@ var Main = (function (_super) {
         this.addChild(topMask);
         var icon = this.createBitmapByName("egret_icon_png");
         this.addChild(icon);
-        icon.x = 26;
-        icon.y = 33;
+        icon.x = 100;
+        icon.y = 100;
         var line = new egret.Shape();
         line.graphics.lineStyle(2, 0xffffff);
         line.graphics.moveTo(0, 0);
@@ -196,3 +196,4 @@ var Main = (function (_super) {
     return Main;
 }(egret.DisplayObjectContainer));
 __reflect(Main.prototype, "Main");
+//# sourceMappingURL=Main.js.map
